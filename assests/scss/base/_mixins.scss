@@ -1,0 +1,20 @@
+
+@mixin flex-center($justify:center , $align: center , $direct:row){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direct;
+}
+
+@mixin button-theme($bg){
+    background: $bg;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 12px;
+
+    @if($bg== #000){
+        color: #fff;
+    }@else{
+        color: #000;
+    }
+}
