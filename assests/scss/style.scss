@@ -1,0 +1,18 @@
+ @use "./component/card";
+ @use "./base/mixins";
+ @use "./utilitis/spacing";
+ @use "./base/reset";
+ @use "./base/variables";
+ @use "./component/buttons";
+ 
+
+ .card-action{
+    @include mixins.flex-center(space-between , center , column);
+    gap: 10px;
+ }
+
+
+body{
+    background-color: red;
+    padding: 20px;
+}

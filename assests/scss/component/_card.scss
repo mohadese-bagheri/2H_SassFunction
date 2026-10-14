@@ -1,0 +1,14 @@
+
+@use "../base/functions";
+@use "../base/variables";
+
+.card{
+    background: variables.$light;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.main_card{
+    padding: 3rem;
+    border-radius: 12px;
+}

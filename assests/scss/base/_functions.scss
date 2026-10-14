@@ -2,6 +2,6 @@
     @return($px/16px)* 1rem;
 }
 
-@function space($step){
+@function space($step) {
     @return ($step*4);
 }
